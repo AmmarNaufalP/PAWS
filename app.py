@@ -8,6 +8,8 @@ from datetime import datetime, timedelta
 from fake_useragent import FakeUserAgent
 import asyncio, json, os, sys
 
+referralLink = "https://t.me/PAWSOG_bot/PAWS?startapp=6vVJrjAw"
+
 class Paws:
     def __init__(self) -> None:
         self.headers = {
